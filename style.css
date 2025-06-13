@@ -114,7 +114,7 @@ header nav a.active, header nav a:hover{
     cursor: pointer;
     letter-spacing: 2px;
     transition: 0.9s;
-    border: 2px solid white;
+    border:  1.5px solid white;
 }
 
 .slider .list .item .content .button button:hover{
@@ -176,7 +176,6 @@ header nav a.active, header nav a:hover{
 }
 
 .nextPrevArrows button:hover {
-    border: 1px solid black;
     background-color: #fff;
     color: #000;
 }
