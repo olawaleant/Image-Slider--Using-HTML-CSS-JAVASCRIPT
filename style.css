@@ -240,7 +240,7 @@ header nav a.active, header nav a:hover{
 }
 
 /* THUMBNAIL EFFECT ON NEXT */
-.slider.next thumbnail .item:nth-last-child(1){
+.slider.next .thumbnail .item:nth-last-child(1){
     overflow: hidden;
     animation: showThumbnail 0.5s linear 1 forwards;
 }
