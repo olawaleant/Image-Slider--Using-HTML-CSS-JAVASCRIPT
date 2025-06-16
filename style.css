@@ -291,29 +291,6 @@ header nav a.active, header nav a:hover{
     }
 }
 
-/* HIDE FIRST THUMBNAIL IN PREV */
-.slider.prev .thubnail .item:nth-child(1){
-    overflow: hidden;
-    opacity: 0;
-    animation: showThumbnail 0.5s linear 1 forwards;
-}
-
-/* SHOW PREVIOUS SLIDE CONTENT */
-.slider.prev .list .item:nth-child(1) .content .title,
-.slider.prev .list .item:nth-child(1) .content .type,
-.slider.prev .list .item:nth-child(1) .content .description,
-.slider.prev .list .item:nth-child(1) .content .button{
-    animation: showContent 0.5s 1s linear 1 forwards;
-}
-
-/* CONTENT OUT ANIMATION (NOT USED ABOVE) */
-@keyframes contentOut{
-    to{
-        transform: translateY(-150px);
-        filter: blur(20px);
-        opacity: 0;
-    }
-}
 
 /* RESPONSIVE DESIGN FOR SMALL SCREENS */
 @media screen and(max-width: 678px){
